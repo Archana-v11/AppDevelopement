@@ -1,0 +1,21 @@
+.full1
+{
+    background:no-repeat url("https://wallpapercave.com/wp/wp11809933.jpg") ;
+    background-size: cover;
+    height: 108vh;
+    margin-top: -10vh;
+}
+.text
+{
+    text-align: center;
+    position: absolute;
+    width: 530px;
+    height: 500px;
+    left: 350px;
+    top: 50px;
+    background: rgba(234, 232, 233, 0.571);
+    border-radius: 50px;
+}
+/*background-position: center;
+background-repeat: repeat;
+background-attachment: fixed;*/
