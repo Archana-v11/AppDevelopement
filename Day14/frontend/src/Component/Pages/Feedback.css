@@ -1,0 +1,104 @@
+/* Feedback Container */
+.feedback_full {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #3dcfe6;
+}
+
+.feedback_container {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  text-align: center;
+}
+
+/* Emoji Buttons */
+.emoji-box {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-normal {
+  font-size: 24px;
+  background-color: transparent;
+  border: none;
+  margin: 10px;
+  cursor: pointer;
+}
+
+/* Feedback Questions */
+.question {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#feedback_textarea {
+  width: 100%;
+  resize: vertical;
+  margin-bottom: 20px;
+}
+
+/* Radio Buttons */
+.feedback_radio {
+  display: flex;
+  justify-content: center;
+}
+
+.one-btn {
+  margin: 0 10px;
+}
+
+/* Info Fields */
+.info-field {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.name,
+.email {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.feedback_full input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Accept Terms */
+.accept {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input[type="radio"]#accept {
+  margin-right: 5px;
+}
+
+/* Submit Button */
+.feedback_button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .info-field {
+    flex-direction: column;
+  }
+}
