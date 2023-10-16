@@ -1,0 +1,276 @@
+.imagefull{
+    
+    padding-top: 70px;
+    font-size: 30px;
+    background-color:white;
+    height: 90vh;
+    
+}
+/* Images.css */
+.imagefull {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20%;
+  }
+  .imagefull h2{
+    margin-top: 50px;
+    margin-left: -130px;
+    color: rgba(18, 74, 18, 0.807);
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.038);
+  }
+  
+  .imagefull ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .imagefull li {
+    margin: 10px; /* Adjust the margin to your liking */
+  }
+  
+  .imagefull img {
+    width: 520px; /* Set a fixed width for the images */
+  height: 600px; /* Set a fixed height for the images */
+  object-fit: cover;
+  }
+  
+
+
+/**{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.img-container{
+    width: 100%;
+    text-align: center;
+}
+.img-full input{
+    display: none;
+}
+.img-container h1{
+   font-weight: normal;
+   font-size: 35px;
+   position: relative;
+   margin: 40px 0; 
+}
+.img-container h1::before{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    background-color: crimson;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: animate 4s linear infinite;
+}
+@keyframes animate{
+    0%{
+        width: 100px;
+    }
+    50%{
+        width: 200px;
+    }
+    100%{
+        width: 100px;
+    }
+}
+.top-content{
+    background-color: rgb(243,243,243);
+    width: 90%;
+    margin: 0 auto 20px auto;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px lightgray;
+}
+.top-content h3{
+    height: 100%;
+    background-color: lightgray;
+    line-height: 60px;
+    padding: 0 50px;
+    color: white;
+}
+.top-content label{
+    display: inline-block;
+    height: 100%;
+    margin: 0 20px;
+    line-height: 60px;
+    font-size: 18px;
+    color: gray;
+    cursor: pointer;
+    transition: color .5s;
+
+}
+.top-content label:hover{
+    color: black;
+}
+.photo-gallery{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+}
+.pic{
+    position: relative;
+    height: 230px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px lightgray;
+    cursor: pointer;
+    transition: .5s;
+}
+.pic img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transition: .5s;
+}
+.pic::before{
+    content: "PHOTO GALLERY";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    width: 100%;
+    margin-top: -100px;
+    opacity: 0;
+    transition: .3s;
+    transition-delay: .2s;
+    z-index: 1;
+}
+.pic::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    border-radius: 10px;
+    height: 0;
+    background-color: rgba(0,0,0,.4);
+    transition: .3s;
+}
+.pic:hover::after{
+    height: 100%;
+}
+.pic:hover::before{
+    margin-top: 0;
+    opacity: 1;
+}
+#check1:checked ~ .img-container .photo-gallery .pic{
+    opacity: 1;
+    transform: scale();
+    position: relative;
+    transition: .5s;
+    
+}
+#check2:checked ~ .img-container .photo-gallery .forest{
+    transform: scale();
+    opacity: 1;
+    position: relative;
+    
+}
+#check2:checked ~ .img-container .photo-gallery .animal,
+#check2:checked ~ .img-container .photo-gallery .not
+{
+    opacity: 0;
+    transform: scale(0);
+    position: absolute;
+    transition: .0s;
+    
+}
+
+#check3:checked ~ .img-container .photo-gallery .animal{
+    transform: scale();
+    opacity: 1;
+    position: relative;
+    
+}
+#check3:checked ~ .img-container .photo-gallery .forest,
+#check3:checked ~ .img-container .photo-gallery .not
+{
+    opacity: 0;
+    transform: scale(0);
+    position: absolute;
+    transition: .0s;
+    
+}
+
+#check4:checked ~ .img-container .photo-gallery .not{
+    transform: scale();
+    opacity: 1;
+    position: relative;
+    
+}
+#check4:checked ~ .img-container .photo-gallery .forest,
+#check4:checked ~ .img-container .photo-gallery .animal
+{
+    opacity: 0;
+    transform: scale(0);
+    position: absolute;
+    transition: .0s;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.img-full
+{
+    background: gray;
+
+}
+.img_container{
+    max-width: 1200px;
+    padding-top: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    background: #f2f2f2;
+    overflow: auto;
+}
+.gallery{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 390px;
+}
+.gallery img{
+    width: 385px;
+    height: 480px;
+}
+*/

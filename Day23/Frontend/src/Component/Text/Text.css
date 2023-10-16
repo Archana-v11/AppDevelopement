@@ -1,0 +1,80 @@
+/* Style for the entire page */
+ .lion{
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  .p
+  {
+    list-style-type: disc; /* Use bullets as list item markers */
+  padding-left: 20px; 
+  }
+  /* Style for the lion information container */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  /* Style for the lion image */
+  .lion-img {
+    width: 70%;
+    height: 70%;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Style for the lion's name */
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Style for the lion description */
+  .center-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* 100% of the viewport height to center vertically */
+  }
+  .lion-des {
+    text-align: center;
+    width: 70%;
+    background-color: lightcyan;
+ /* Background color for the container */
+    padding: 20px; /* Add padding for spacing within the container */
+    border-radius: 10px; /* Add rounded corners to the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a shadow effect */
+    margin: 20px; /* Add margin for spacing between the container and surrounding elements */
+  }
+  
+  .lion-des p {
+    font-size: 16px; /* Adjust the font size as needed */
+    line-height: 1.6; /* Adjust the line height for better readability */
+    color: #333; /* Text color (adjust as needed) */
+  }
+  
+  .lion-des p::before {
+     /* Use a bullet character as the content before each paragraph */
+    display: inline-block;
+    margin-right: 5px; /* Add some spacing between the bullet and the text */
+  }
+  
+  
+  
+  
+  /* Style for lion information links */
+  a {
+    color: #007acc;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

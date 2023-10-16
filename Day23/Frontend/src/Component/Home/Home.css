@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.homefull{
+    background-image: url('./login.jpg');
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-position: top;
+  
+}
+.menu
+{
+    background: #1b2430;
+    color: white;
+    height: 723px;
+}
+.menu label:hover
+{
+    color:white;
+}
+.name1
+{
+    
+}
+.title1
+{
+    text-align: center;
+    position: absolute;
+    top:160px;
+    left:350px;
+    color: white;
+    font-size: 37px;
+    
+}
+.home_h1{
+    padding-right: 1000px;
+}
+.home_h2{
+    padding-right: 400px;
+}
+.name1{
+    padding-left: 100px;
+}
+/*background-size: cover;
+background-repeat:no-repeat;
+background-attachment: fixed;*/
+
+
+/*image*/
+.homeimage
+{
+    display: flex;
+    justify-content: center;
+    background: rgb(239, 227, 206);
+
+}
+.imagecon{
+    position: relative;
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin-top: 5%;
+}
+.imagecon .card{
+     width: 316px;
+     position: relative;
+     height: 410px;
+     background: #f0f0f0;
+     margin: 30px 10px;
+     margin-right: 20px;
+     padding: 20px 15px;
+     display: flex;
+     flex-direction:column ;
+     box-shadow: 0.5px 10px #1f1a1a;
+     transition: 0.3s ease-in-out;
+     margin-top: 5%;
+
+}
+.imagecon .card .imgBx{
+    position: relative;
+    width: 260px;
+    height: 260px;
+    top: -60px;
+    left: 20px;
+    box-shadow: 0 5px 20px rbga(0,0,0,1.2);
+}
+.imagecon .card .imgBx img{
+    width: 240px;
+    height: 100%;
+    border-radius: 10px;
+}
+.imgBx:hover img{
+    transform: scale(1.1);
+}
+
+
+
+
+
+/*footer*/
+*/
+{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Work Sans',sans-serif;
+}
+body
+{
+    height: 100vh;
+    width: 100%;
+    
+
+}
+footer{
+    padding: 80px 13% 70px;
+}
+footer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,auto));
+    gap:3.5rem;
+    background:grey;
+   
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.footer-content h4
+{
+    color:rgb(75, 204, 24) ;
+    margin-bottom:1.5rem ;
+    font-size: 22px;
+}
+.footer-content li{
+    margin-bottom: 16px;
+
+}
+.footer-content li a{
+    display: block;
+    color:black ;
+    font-size: 19px;
+    font-weight: 400;
+    transition:all .40s ease ;
+}
+.footer-content li a:hover{
+    transform: translateY(-3px) translateX(-5px);
+    color: blue;
+
+}
+.sociallink .sicon{
+    display: inline-block;
+    height: 44px;
+    width: 44px;
+    color: white;
+    background-color: rgba(12, 73, 130, 0.8);
+    margin: 0 8px 8px 0;
+    text-align: center;
+    line-height: 44px;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+.sociallink .sicon:hover{
+    color: white;
+    transform: translateY(-5px);
+}
+.copyright
+{
+    width: 100%;
+    background: #fff;
+    padding: 20px 100px 30px;
+    text-align: center;
+    color: #555;
+    border: 1px solid rgba(0,0,0,0.15);
+}

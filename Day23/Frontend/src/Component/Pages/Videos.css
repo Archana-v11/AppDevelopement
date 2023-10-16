@@ -1,0 +1,48 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.videofull
+{
+    
+   
+    padding-top: 78px; /* Player ratio: 100 / (1280 / 720) */
+   
+}
+
+.videobody
+{
+   padding-top: 100px;
+   margin-left: 150px;
+   display: flex;
+  flex-wrap: wrap;
+  align-items:flex-start ;
+  justify-content: center;
+  text-align: center;
+  
+
+}
+.videobody h1{
+    color: rgba(0, 128, 0, 0.807);
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.132);
+    margin-top: 50px;
+    margin-left: -100px;
+    
+  text-align: center; 
+}
+.videobody ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .videobody li {
+    margin: 10px; /* Adjust the margin to your liking */
+  }
+  .videobody .react-player {
+    width: 300px; /* Adjust the width as needed */
+    height: 200px; /* Adjust the height as needed */
+  }

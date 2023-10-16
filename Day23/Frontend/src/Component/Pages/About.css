@@ -1,0 +1,23 @@
+.fullabout
+{
+    background:no-repeat url("./about.jpg") ;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    padding-top: 20px;
+}
+.textabout
+{
+   
+    position: absolute;
+    width: 550px;
+    height: 500px;
+    left: 230px;
+    top: 150px;
+    background: rgba(176, 170, 173, 0.571);
+    border-radius: 50px;
+    text-align: left;
+}
+/*background-position: center;
+background-repeat: repeat;
+background-attachment: fixed;*/
