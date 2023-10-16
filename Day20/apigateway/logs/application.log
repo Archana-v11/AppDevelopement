@@ -1,0 +1,108 @@
+2023-10-16T10:12:53.232+05:30  INFO 26756 --- [restartedMain] com.example.demo.ApigatewayApplication   : Starting ApigatewayApplication using Java 17.0.6 with PID 26756 (C:\Users\Archana\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\apigateway\target\classes started by Archana in C:\Users\Archana\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\apigateway)
+2023-10-16T10:12:53.237+05:30  INFO 26756 --- [restartedMain] com.example.demo.ApigatewayApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-10-16T10:12:53.301+05:30  INFO 26756 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-16T10:12:53.301+05:30  INFO 26756 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-16T10:12:54.104+05:30  INFO 26756 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-16T10:12:54.118+05:30  INFO 26756 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+2023-10-16T10:12:54.289+05:30  INFO 26756 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c6c9d222-b5da-357e-9540-970cdc7b9b34
+2023-10-16T10:12:54.441+05:30  INFO 26756 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-10-16T10:12:54.442+05:30  INFO 26756 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-10-16T10:12:54.447+05:30  INFO 26756 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-10-16T10:12:54.713+05:30  INFO 26756 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-16T10:12:54.752+05:30  INFO 26756 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-10-16T10:12:54.755+05:30  INFO 26756 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-10-16T10:12:54.856+05:30  INFO 26756 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-16T10:12:54.942+05:30  INFO 26756 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-16T10:12:54.959+05:30  INFO 26756 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-16T10:12:55.202+05:30  INFO 26756 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5e88e162
+2023-10-16T10:12:55.203+05:30  INFO 26756 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-16T10:12:55.256+05:30  WARN 26756 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-10-16T10:12:55.317+05:30  INFO 26756 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-16T10:12:55.531+05:30  INFO 26756 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-16T10:12:55.538+05:30  INFO 26756 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-16T10:12:55.967+05:30  INFO 26756 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2023-10-16T10:12:55.967+05:30  INFO 26756 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2023-10-16T10:12:55.968+05:30  INFO 26756 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2023-10-16T10:12:55.968+05:30  INFO 26756 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2023-10-16T10:12:55.968+05:30  INFO 26756 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2023-10-16T10:12:55.969+05:30  INFO 26756 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2023-10-16T10:12:55.969+05:30  INFO 26756 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2023-10-16T10:12:55.969+05:30  INFO 26756 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2023-10-16T10:12:55.969+05:30  INFO 26756 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2023-10-16T10:12:55.969+05:30  INFO 26756 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2023-10-16T10:12:55.969+05:30  INFO 26756 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2023-10-16T10:12:55.969+05:30  INFO 26756 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-10-16T10:12:55.969+05:30  INFO 26756 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2023-10-16T10:12:55.969+05:30  INFO 26756 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-10-16T10:12:56.402+05:30  INFO 26756 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-10-16T10:12:56.610+05:30  WARN 26756 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-10-16T10:12:56.618+05:30  INFO 26756 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2023-10-16T10:12:56.661+05:30  WARN 26756 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-10-16T10:12:56.716+05:30  INFO 26756 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-10-16T10:12:56.747+05:30  INFO 26756 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-10-16T10:12:56.754+05:30  INFO 26756 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T10:12:56.772+05:30  INFO 26756 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-10-16T10:12:56.772+05:30  INFO 26756 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-10-16T10:12:56.773+05:30  INFO 26756 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-10-16T10:12:56.773+05:30  INFO 26756 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-10-16T10:12:56.773+05:30  INFO 26756 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-10-16T10:12:56.773+05:30  INFO 26756 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2023-10-16T10:12:56.773+05:30  INFO 26756 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-10-16T10:12:57.153+05:30  INFO 26756 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-10-16T10:12:57.155+05:30  INFO 26756 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2023-10-16T10:12:57.157+05:30  INFO 26756 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-10-16T10:12:57.161+05:30  INFO 26756 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1697431377160 with initial instances count: 0
+2023-10-16T10:12:57.163+05:30  INFO 26756 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application API-GATEWAY with eureka with status UP
+2023-10-16T10:12:57.163+05:30  INFO 26756 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1697431377163, current=UP, previous=STARTING]
+2023-10-16T10:12:57.186+05:30  INFO 26756 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/LAPTOP-7B8PAC25:api-gateway:8999: registering service...
+2023-10-16T10:12:57.299+05:30  INFO 26756 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/LAPTOP-7B8PAC25:api-gateway:8999 - registration status: 204
+2023-10-16T10:12:57.365+05:30  INFO 26756 --- [restartedMain] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8999
+2023-10-16T10:12:57.367+05:30  INFO 26756 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8999
+2023-10-16T10:12:57.526+05:30  INFO 26756 --- [restartedMain] com.example.demo.ApigatewayApplication   : Started ApigatewayApplication in 4.735 seconds (process running for 5.466)
+2023-10-16T10:13:27.164+05:30  INFO 26756 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-10-16T10:13:27.165+05:30  INFO 26756 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-10-16T10:13:27.165+05:30  INFO 26756 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-10-16T10:13:27.165+05:30  INFO 26756 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-10-16T10:13:27.165+05:30  INFO 26756 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-10-16T10:13:27.165+05:30  INFO 26756 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2023-10-16T10:13:27.165+05:30  INFO 26756 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-10-16T10:13:27.188+05:30  INFO 26756 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-10-16T10:17:56.961+05:30  INFO 26756 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T10:22:57.008+05:30  INFO 26756 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T10:27:57.022+05:30  INFO 26756 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T10:32:57.028+05:30  INFO 26756 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T10:37:57.035+05:30  INFO 26756 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T10:42:57.040+05:30  INFO 26756 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T10:47:57.061+05:30  INFO 26756 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T10:52:57.076+05:30  INFO 26756 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T10:57:57.097+05:30  INFO 26756 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T11:02:57.108+05:30  INFO 26756 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T11:07:57.123+05:30  INFO 26756 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T11:12:57.127+05:30  INFO 26756 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T11:17:57.138+05:30  INFO 26756 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T11:22:57.158+05:30  INFO 26756 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T11:27:57.168+05:30  INFO 26756 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T11:32:57.170+05:30  INFO 26756 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T11:37:57.196+05:30  INFO 26756 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T11:42:57.211+05:30  INFO 26756 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T11:47:57.220+05:30  INFO 26756 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T11:52:57.226+05:30  INFO 26756 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T11:57:57.248+05:30  INFO 26756 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T12:02:57.263+05:30  INFO 26756 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T12:07:57.278+05:30  INFO 26756 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T12:12:57.292+05:30  INFO 26756 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T12:17:57.303+05:30  INFO 26756 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T12:22:57.315+05:30  INFO 26756 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T12:27:57.334+05:30  INFO 26756 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T12:32:57.347+05:30  INFO 26756 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T12:37:57.353+05:30  INFO 26756 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T12:42:57.366+05:30  INFO 26756 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T13:56:27.562+05:30  WARN 26756 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h11m59s81ms509µs).
+2023-10-16T13:59:26.444+05:30  INFO 26756 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T14:33:21.802+05:30  WARN 26756 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=32m54s182ms497µs700ns).
+2023-10-16T14:36:50.683+05:30  INFO 26756 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T14:41:50.700+05:30  INFO 26756 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T14:46:50.705+05:30  INFO 26756 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T14:51:50.709+05:30  INFO 26756 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-16T14:58:01.418+05:30  WARN 26756 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m9s154ms663µs300ns).
+2023-10-16T15:00:29.856+05:30  INFO 26756 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
