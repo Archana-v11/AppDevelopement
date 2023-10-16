@@ -1,0 +1,132 @@
+/**{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.img_desc{
+    float: left;
+    width: 40%;
+}
+.pos_cen{
+    position: absolute;
+    width: 70%;
+    left: 15%;
+    top: 30%;
+    background-color: lightblue;
+    padding: 30px;
+}
+*/
+/* Tn.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .im h1{
+    font-weight: normal;
+    font-size: 35px;
+    position: relative;
+    margin: 40px 0; 
+ }
+ .im h1::before{
+     content: '';
+     position: absolute;
+     width: 100px;
+     height: 3px;
+     background-color: crimson;
+     bottom: -10px;
+     left: 50%;
+     transform: translateX(-50%);
+     animation: animate 4s linear infinite;
+ }
+  .pos_cen {
+    background-color: lightblue;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between; /* Create space between the two content containers */
+    align-items: center;
+  }
+  
+  .content_container1,
+  .content_container2 {
+    width: 48%; /* Set the width for each content container */
+  }
+  
+  .img_desc1,
+  .img_desc2 {
+    width: 100%; /* Set a specific width for both images */
+  max-height: 100%; 
+  /* Maintain aspect ratio by setting a maximum height */
+  
+  }
+  
+  .text_content1,
+  .text_content2 {
+    text-align: center; /* Center text content */
+    padding: 20px; /* Add spacing around text content */
+    background: white; /* Add a background for better readability */
+    border: 1px solid #ccc; /* Add a border for visual separation */
+  }
+  
+
+
+
+  /*images*/
+  .\image-cont {
+    display: inline-block;
+    margin: 14px;
+    border: 6px solid #9d9b9b;
+    padding: 8px;
+    border-radius: 15px;
+
+    box-shadow: 6px 3px 5px #4d4d4d;
+}
+.image-cont img {
+    max-width: 50%;
+    
+    height: 500px;
+}
+.img_link h3{
+    color:black;
+    border-radius: 5px;
+}
+
+.text {
+  background-color: #e2c4c4; /* Background color for the "textbox" */
+  border: 2px solid #ccc;
+  width: 70%; /* Border style for the "textbox" */
+  padding: 10px; /* Padding inside the "textbox" */
+  color: red; /* Text color */
+  display: inline-block; /* Make the "textbox" a block-level element */
+  border-radius: 5px; /* Rounded corners for the "textbox" */
+}
+
+.styled-button {
+    background-color: #f8a3e4; /* Background color */
+    color: #fff; /* Text color */
+    border: none; /* Remove button border */
+    padding: 10px 20px; /* Add padding around text */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline from the link */
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer; /* Show pointer cursor on hover */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  }
+  
+  .styled-button:hover {
+    background-color: #005599; /* Change color on hover */
+  }
+  
+
+  .copyright
+{
+    width: 100%;
+    background: #fff;
+    padding: 20px 100px 30px;
+    text-align: center;
+    color: #555;
+    border: 1px solid rgba(0,0,0,0.15);
+}
